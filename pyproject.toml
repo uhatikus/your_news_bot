@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "your-news-bot"
+version = "0.1.0"
+description = ""
+authors = ["Ukhatov Alexander <alexander.ukhatov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "your_news_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^20.7"
+python-dotenv = "^1.0.1"
+openai = "^1.10.0"
+telethon = "^1.33.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
